@@ -18,8 +18,8 @@
                 {
                     if (i + nums[i]>value + index)
                     {
-                        index = i; 
-                       value= nums[i];
+                        tempIndex = i; 
+                       tempValue= nums[i];
                         break;
                     }
 
